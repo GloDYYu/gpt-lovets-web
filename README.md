@@ -10,6 +10,7 @@ The modern app uses React, Material UI and MapLibre. For more information on how
 
 - Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
 - Andrey Kunitsyn ([andrey@traccar.org](mailto:andrey@traccar.org))
+- Yuri Derevenkin ([glodyyu@gmail.com](mailto:glodyu@gmail.com))
 
 ## License
 
