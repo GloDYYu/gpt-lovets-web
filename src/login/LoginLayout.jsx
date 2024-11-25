@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    background: theme.palette.primary.main,
+    background: theme.palette.primary.main, /* цвет фона бокового меню - #000060 */
     paddingBottom: theme.spacing(5),
     width: theme.dimensions.sidebarWidth,
     [theme.breakpoints.down('lg')]: {
