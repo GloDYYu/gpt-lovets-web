@@ -222,7 +222,7 @@
     "deviceStatusUnknown": "Неизвестный",
     "deviceRegisterFirst": "Добавьте свое первое устройство",
     "deviceIdentifierHelp": "IMEI, серийный номер или другой идентификатор. Он должен соответствовать идентификатору, который устройство сообщает серверу.",
-    "deviceShare": "Поделиться устройством",
+    "deviceShare": "Поделиться",
     "groupDialog": "Группа",
     "groupParent": "Группа",
     "groupNoGroup": "Без группы",
