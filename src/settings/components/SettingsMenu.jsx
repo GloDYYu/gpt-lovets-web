@@ -5,14 +5,15 @@ import {
 import SettingsIcon from '@mui/icons-material/Settings';
 import CreateIcon from '@mui/icons-material/Create';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import FolderIcon from '@mui/icons-material/Folder';
+import BusinessIcon from '@mui/icons-material/Business';
 import PersonIcon from '@mui/icons-material/Person';
+import AirlineSeatReclineNormalIcon from '@mui/icons-material/AirlineSeatReclineNormal';
 import StorageIcon from '@mui/icons-material/Storage';
 import BuildIcon from '@mui/icons-material/Build';
 import PeopleIcon from '@mui/icons-material/People';
 import TodayIcon from '@mui/icons-material/Today';
 import PublishIcon from '@mui/icons-material/Publish';
-import SmartphoneIcon from '@mui/icons-material/Smartphone';
+import TrainIcon from '@mui/icons-material/Train';
 import HelpIcon from '@mui/icons-material/Help';
 import CampaignIcon from '@mui/icons-material/Campaign';
 import { useLocation } from 'react-router-dom';
@@ -62,7 +63,7 @@ const SettingsMenu = () => {
             <MenuItem
               title={t('deviceTitle')}
               link="/settings/devices"
-              icon={<SmartphoneIcon />}
+              icon={<TrainIcon />}
               selected={location.pathname.startsWith('/settings/device')}
             />
             <MenuItem
@@ -75,7 +76,7 @@ const SettingsMenu = () => {
               <MenuItem
                 title={t('settingsGroups')}
                 link="/settings/groups"
-                icon={<FolderIcon />}
+                icon={<BusinessIcon />}
                 selected={location.pathname.startsWith('/settings/group')}
               />
             )}
@@ -83,7 +84,7 @@ const SettingsMenu = () => {
               <MenuItem
                 title={t('sharedDrivers')}
                 link="/settings/drivers"
-                icon={<PersonIcon />}
+                icon={<AirlineSeatReclineNormalIcon />}
                 selected={location.pathname.startsWith('/settings/driver')}
               />
             )}

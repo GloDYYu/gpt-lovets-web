@@ -13,10 +13,9 @@ import { sessionActions } from '../store';
 import { useLocalization, useTranslation } from '../common/components/LocalizationProvider';
 import LoginLayout from './LoginLayout';
 import usePersistedState from '../common/util/usePersistedState';
-import {
-  generateLoginToken, handleLoginTokenListeners, nativeEnvironment, nativePostMessage,
-} from '../common/components/NativeInterface';
+import { generateLoginToken, handleLoginTokenListeners, nativeEnvironment, nativePostMessage, } from '../common/components/NativeInterface';
 import LogoImage from './LogoImage';
+import LogoCompany from './LogoCompany';
 import { useCatch } from '../reactHelper';
 import Loader from '../common/components/Loader';
 
@@ -139,6 +138,7 @@ const LoginPage = () => {
             </IconButton>
           </Tooltip>
         )}
+        <LogoCompany/>
         {languageEnabled && (
           <FormControl>
             <Select value={language} onChange={(e) => setLanguage(e.target.value)}>
@@ -150,7 +150,7 @@ const LoginPage = () => {
                   {it.name}
                 </MenuItem>
               ))}
-            </Select>
+            </Select>            
           </FormControl>
         )}
       </div>
