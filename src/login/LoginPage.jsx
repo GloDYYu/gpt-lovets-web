@@ -165,7 +165,7 @@ const LoginPage = () => {
           autoComplete="email"
           autoFocus={!email}
           onChange={(e) => setEmail(e.target.value)}
-          helperText={failed && 'Invalid username or password'}
+          helperText={failed && 'Неверно указаны эл.почта или пароль! Повторите попытку.'}
         />
         <TextField
           required

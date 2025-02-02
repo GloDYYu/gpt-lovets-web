@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme, useMediaQuery } from '@mui/material';
 import { useSelector } from 'react-redux';
 import { makeStyles } from '@mui/styles';
-import Logo from '../resources/images/logo_gpt.svg?react';
+import LogoComp from '../resources/images/logo_gpt.svg?react';
 
 const useStyles = makeStyles((theme) => ({
   image: {
@@ -27,7 +27,7 @@ const LogoCompany = ({ color }) => {
     }
     return <img className={classes.image} src={logo} alt="" />;
   }
-  return <Logo className={classes.image} style={{ color }} />;
+  return <LogoComp className={classes.image} style={{ color }} />;
 };
 
 export default LogoCompany;
