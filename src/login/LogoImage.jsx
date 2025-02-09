@@ -7,7 +7,7 @@ import Logo from '../resources/images/logo.svg?react';
 const useStyles = makeStyles((theme) => ({
   image: {
     alignSelf: 'center',
-    maxWidth: '240px',
+    maxWidth: '540px',
     maxHeight: '120px',
     width: 'auto',
     height: 'auto',
